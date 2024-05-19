@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine;
+
+}
+.home_p{
+    height: 40%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    margin-top: 17%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20%;
+}
+.container{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    border: 2px solid rebeccapurple;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    position: absolute;
+
+}
+
+.hide{
+    display: none;
+}
+.play_name{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.name{
+    color: white;
+}
+.game_sms{
+    font-size: 4rem;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(235, 23, 111);
+    position: absolute;
+    height: 31rem;
+    border: 2px solid red;
+    background-color: rgba(92, 227, 180, 0.7);
+    border-radius: 20%;
+    padding: 4rem;
+    /* display: flex; */
+    border: none;
+    padding-top: 12%;
+    box-shadow:  0px 0px 30px 3px rgb(4, 60, 37);
+}
+.btn{
+    height: 3rem;
+    width: 8rem;
+    background-color:rgb(35, 70, 244) ;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    
+}
+.reset_Game{
+    background-color: rgb(244, 38, 38);
+    box-shadow:  0px 0px 30px 3px rgb(4, 60, 37);
+    border: none;
+}
+
+.start_game{
+    background-color: rgb(5, 202, 246);
+    box-shadow:  0px 0px 30px 3px rgb(31, 147, 99);
+    border: none
+}
+.game_con{
+    height: 30rem;
+    width: 30rem;
+    background-color: rgb(75, 230, 230);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 3%;
+    border: none;
+}
+
+.box{
+    height: 9rem;
+    width: 9rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 7rem;
+    border: none;
+    background-color: rgb(4, 151, 95);
+    border-radius: 3%;
+    box-shadow:  0px 0px 10px 1px rgb(10, 240, 148);
+    
+}
+.Newbox1{
+    background-color: rgb(19, 19, 173);
+    border: 2px solid black;
+    box-shadow:  0px 0px 10px 1px rgb(3, 174, 247);
+    color: rgb(234, 4, 199);
+    border-radius: 5%;
+    height: 8.8rem;
+    width: 8.8rem;
+}
+.Newbox2{
+    background-color: rgb(248, 6, 159);
+    border: 2px solid black;
+    box-shadow:  0px 0px 10px 1px rgb(3, 202, 247);
+    color: rgb(50, 9, 237);
+    border-radius: 5%;
+    height: 8.8rem;
+    width: 8.8rem;
+}
